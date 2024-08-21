@@ -1,0 +1,33 @@
+.first-slider .carousel-indicators li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.first-slider img{
+    height: 30rem;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(60%);
+}
+.first-slider .carousel-caption{
+    text-align:right;
+    bottom: 20%;
+}
+.card{
+    overflow: hidden;
+
+}
+.card-body{
+    overflow: hidden;
+}
+.card img{
+    object-fit: cover;
+    object-position: center;
+}
+.card img:hover{
+    scale:1.1;
+    rotate:1deg;
+    overflow: hidden;
+}   
